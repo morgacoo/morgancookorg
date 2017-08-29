@@ -129,6 +129,7 @@ textarea {
      background-size: contain;
      background-repeat: repeat-x;
      width: 100%;
+     margin-top: 0%;
    }
 
 
@@ -140,30 +141,43 @@ textarea {
    }
 
    nav {
-     float: right;
-     padding: 10% 5% 0 0;
+     background-color: rgba(150, 29, 56, 0.7);
+     width: 100%;
+     margin-top: -1%;
+     border-bottom: .5px solid #996600;
+     padding-top: 1%;
    }
 
    nav ul li {
      display: inline-block;
-     padding-bottom: 0px;
+     padding-bottom: 0;
+     padding-right: 4%;
    }
 
    nav ul li a {
      text-transform: capitalize;
      text-decoration: none;
-     font-size: 20px;
+     font-size: 1.5em;
      color: #828282;
-     padding-left: 80px;
-     padding-bottom: 0px;
    }
 
    nav ul li a:hover {
-     color: #961d38;
+     color: black;
+   }
+
+   nav ul li:nth-child(1) {
+     padding-left: 70%;
    }
 
    .teaser {
      padding-left: 3%;
+   }
+
+   #header_logo {
+     position: relative;
+     margin-top: -5%;
+     top: 1%;
+     left: 5%;
    }
 
    header h2 {
