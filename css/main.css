@@ -126,10 +126,13 @@ textarea {
    header {
      background-image: url('http://res.cloudinary.com/morgacoo/image/upload/c_scale,w_2000/v1503508521/camera-large_syduvl.jpg');
      height: auto;
-     background-size: contain;
+     background-size: cover;
      background-repeat: repeat-x;
      width: 100%;
      margin-top: 0%;
+     border-bottom: 2px solid #996600;
+     border-top: 1px solid #996600;
+     margin-bottom: 0;
    }
 
 
@@ -180,15 +183,20 @@ textarea {
      margin-top: -5%;
      top: 1%;
      left: 5%;
+     max-height: 100%;
+     max-width: 100%;
+     display: block;
    }
 
+
    header h2 {
-     width: 60%;
+     width: 100%;
      font-family:'Lora', serif;
      font-size: 4.5vw;
-     line-height: 1.2em;
+     line-height: 1.3em;
      color: #9b9b9b;
      padding-left: 5%;
+     padding-top: 3%;
    }
 
    header h2 span {
@@ -203,6 +211,7 @@ textarea {
    /***** ABOUT ******/
    #about {
      margin-bottom: -10%;
+     /*border-bottom: 1px solid #996600; FIGURE OUT HOW TO FIX HEIGHT OF ELEMENT*/
    }
 
    #about .full-width {
