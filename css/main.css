@@ -507,35 +507,35 @@ textarea {
     background-color: rgba(150, 29, 56, 0.7);
     width: 100%;
     margin-top: -1%;
-    border-bottom: .5px solid #996600;
     padding-top: 1%;
   }
 
-  nav ul {
-    white-space: nowrap;
-  }
 
   nav ul li {
-    display: inline-block;
+    display: inline;
     padding-bottom: 0;
     padding-right: 4%;
+    padding-left: 0;
+    text-align:left;
   }
+
+      nav ul li:nth-child(1) {
+        margin-left: 50%;
+      }
 
   nav ul li a {
     text-transform: capitalize;
     text-decoration: none;
     font-size: 1.5em;
     color: #828282;
-    padding-left: 2%;
+    padding-left: 1%;
   }
 
   nav ul li a:hover {
     color: black;
   }
 
-  nav ul li:nth-child(1) {
-    padding-left: 70%;
-  }
+
 
 
   #header_logo {
