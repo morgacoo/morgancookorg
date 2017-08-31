@@ -12,6 +12,8 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+
+
 html {
     color: #222;
     font-size: 1em;
@@ -96,9 +98,17 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+   /* BASE FONTS
+   font-family: 'Abel', sans-serif;
+   font-family: 'Maven Pro', sans-serif;
+   font-family: 'Rajdhani', sans-serif;
+   */
+
+
    /***** BASE STYLES *******/
    body {
-     font-family: 'Source Sans Pro', sans-serif;
+     font-family: 'Abel', sans-serif;
      width: 100%;
    }
    #about, #work, #contact {
@@ -138,8 +148,9 @@ textarea {
      background-color: rgba(150, 29, 56, 0.7);
      width: 100%;
      margin-top: -1%;
-     border-bottom: .5px solid #996600;
      padding-top: 1%;
+     border-bottom: 5px solid #996600;
+
    }
 
 
@@ -147,10 +158,11 @@ textarea {
      display: block;
      width: 100%;
      margin: 0;
-     margin-left: 41%;
      margin-top: 5%;
-   }
+     text-align: center;
 
+   }
+/*
      nav ul li:nth-child(2) {
        margin-left: 42%;
      }
@@ -160,15 +172,13 @@ textarea {
         border: none;
         margin-left: 39%;
       }
-
+*/
    nav ul li a {
      text-transform: capitalize;
      text-decoration: none;
      font-size: 1.5em;
      color: #828282;
      width: 100%;
-     border-bottom: 1px solid #996600;
-
    }
 
    nav ul li a:hover {
