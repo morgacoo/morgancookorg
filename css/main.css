@@ -191,9 +191,6 @@ textarea {
      display: block;
    }
 
-  #header_logo {
-     display: none;
-   }
 
    header h2 {
      width: 100%;
@@ -639,7 +636,7 @@ textarea {
 
   #contact {
     background: #ebebeb;
-    border-top: 3px solid #996600; 
+    border-top: 3px solid #996600;
 
   }
 
