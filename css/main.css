@@ -193,6 +193,10 @@ textarea {
      display: block;
    }
 
+  #header_logo {
+     display: none;
+   }
+
 
    header h2 {
      width: 100%;
@@ -286,6 +290,9 @@ textarea {
 
    #contact {
      background: #ebebeb;
+     min-height: 800px;
+     color: #13132f;
+
    }
 
    #contact .full-width {
@@ -300,20 +307,35 @@ textarea {
      max-width: 75%;
      display: block;
      }
+
+   .contact-logo {
+     height: 100%;
+     width: 100%;
+     margin: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
    }
 
+    .contact-logo img {
+       margin-top: 15%;
+       max-height: 75%;
+       max-width: 75%;
+       display: block;
+       margin-top: 2%;
+     }
+
    #contact h2, #email-header, #socialmedia-header, #contact ul {
-     padding-left: 60%;
+     padding-left: 6%;
    }
 
    #envelope {
-     padding: 0 10px 0 115px
+     padding-left: 5%;
    }
 
    #contact h2 {
      font-family:'Lora', serif;
      font-size: 36px;
-     color: #13132f;
      padding-left: 5%;
    }
 
@@ -329,7 +351,7 @@ textarea {
      font-weight:bold;
      font-size:1.5em;
      margin: 40px 0 0px 0;
-     padding-left: 7%;
+     padding-left: 5%;
 
    }
 
@@ -342,18 +364,14 @@ textarea {
 
    #contact ul {
      list-style: none;
+     width: 100%;
+     padding-left: 5%;
+
    }
 
    #contact ul li {
      display: inline-block;
-   }
-
-   #contact ul img {
-     padding-right: 48px;
-   }
-
-   #contact h3{
-     color: #13132f;
+     margin-right: 10%;
    }
 
 
@@ -536,16 +554,15 @@ textarea {
   }
 
 
-
-
   #header_logo {
+    display: none;
     position: relative;
     margin-top: -5%;
     top: 1%;
     left: 5%;
     max-height: 100%;
     max-width: 100%;
-    display: block;
+
   }
 
 
