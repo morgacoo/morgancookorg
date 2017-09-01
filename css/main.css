@@ -111,9 +111,7 @@ textarea {
      font-family: 'Abel', sans-serif;
      width: 100%;
    }
-   #about, #work, #contact {
-     height: 600px;
-   }
+
 
    /******* GRID ******/
 
@@ -380,15 +378,6 @@ textarea {
 
 
 
-
-
-
-
-
-
-
-
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -471,17 +460,21 @@ textarea {
 
 @media screen and (min-width: 768px) {
     /* Style adjustments for viewports that meet the condition */
+    body {
+      font-family: 'Abel', sans-serif;
+      width: 100%;
+    }
+    #about, #work, #contact {
+      height: 600px;
+    }
+
+
 }
 
 @media screen and (min-width: 940px) {
 
-  body {
-    font-family: 'Source Sans Pro', sans-serif;
-    width: 100%;
-  }
-  #about, #work, #contact {
-    height: 600px;
-  }
+
+
 
   /******* GRID ******/
 
@@ -557,23 +550,27 @@ textarea {
   #header_logo {
     display: none;
     position: relative;
-    margin-top: -5%;
-    top: 1%;
-    left: 5%;
-    max-height: 100%;
-    max-width: 100%;
-
+    max-height: 400px;;
+    max-width: 400px;
+    margin-left: -35%;
+    margin-top: -8%;
+    clear: both;
+    clear: both;
   }
 
+  .header-text {
+    clear: both;
+    margin-top: 15%;
+    margin-left: -45%;
+    padding-top: 0;
+    text-align: left;
+    font-size: 4.0vw;
+  }
 
   header h2 {
-    width: 100%;
-    font-family:'Lora', serif;
     font-size: 4.5vw;
     line-height: 1.3em;
     color: #9b9b9b;
-    padding-left: 5%;
-    padding-top: 3%;
   }
 
   header h2 span {
@@ -584,38 +581,35 @@ textarea {
     color: #961d38;
   }
 
+  /*********   ABOUT     ***************/
 
-  /***** ABOUT ******/
   #about {
-    margin-bottom: -10%;
-    /*border-bottom: 1px solid #996600; FIGURE OUT HOW TO FIX HEIGHT OF ELEMENT*/
-  }
-
-  #about .full-width {
-    width: 96%;
-    padding-left: 2%;
-
+    border: 2px solid #996600; /* FIGURE OUT HOW TO FIX HEIGHT OF ELEMENT*/
+    width: 94%;
+    padding-left: 3%;
   }
 
   #about .half-width {
-    width: 48%;
-    padding: 0 1% 0 1%;
+    width: 46%;
+    border: 1px solid gold;
+
   }
 
   #about h2 {
     font-family: 'Lora', serif;
     font-size: 36px;
     color: #13132f;
-    padding-left: 1%;
     margin-bottom: 0;
+    border: 1px solid gold;
+
   }
 
   #about p {
     font-size: 21px;
     color:#7f7f7f;
-    line-height: 40px;
-    padding-right: 50px;
+    line-height: 2em;
     text-align: justify;
+    border: 1px solid gold;
   }
 
 
