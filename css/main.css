@@ -18,6 +18,7 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    height: 100%;
 }
 
 /*
@@ -110,6 +111,7 @@ textarea {
    body {
      font-family: 'Abel', sans-serif;
      width: 100%;
+     height: auto;
    }
 
 
@@ -191,6 +193,10 @@ textarea {
      display: block;
    }
 
+   #header_logo {
+     display: none;
+   }
+
 
    header h2 {
      width: 100%;
@@ -213,13 +219,10 @@ textarea {
 
    /***** ABOUT ******/
    #about {
-     min-height: 1020px;
      width: 96%;
      padding: 0 7%;
      /*border-bottom: 1px solid #996600; FIGURE OUT HOW TO FIX HEIGHT OF ELEMENT*/
    }
-
-
 
 
    #about h2 {
@@ -232,7 +235,7 @@ textarea {
    #about p {
      font-size: 21px;
      color:#7f7f7f;
-     line-height: 40px;
+     line-height: 1.5em;
      padding-right: 50px;
      text-align: justify;
    }
@@ -452,10 +455,9 @@ textarea {
     body {
       font-family: 'Abel', sans-serif;
       width: 100%;
+      height: auto;
     }
-    #about, #work, #contact {
-      max-height: 600px;
-    }
+
 
 
 }
@@ -575,12 +577,13 @@ textarea {
   #about {
     border-bottom: 2px solid #996600; /* FIGURE OUT HOW TO FIX HEIGHT OF ELEMENT*/
     width: 90%;
-    padding-left: 7%;
+    padding-left: 3%;
+    border: 1px solid black;
   }
 
   #about .half-width {
     width: 47%;
-    margin-right: 2%;
+    margin-left: 2%;
   }
 
   #about h2 {
@@ -588,6 +591,7 @@ textarea {
     font-size: 36px;
     color: #13132f;
     margin-bottom: 0;
+    margin-left: 2
 
   }
 
