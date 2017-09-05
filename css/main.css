@@ -247,7 +247,6 @@ textarea {
      background: #961d38;
      text-align: center;
      background-color: rgba(150, 29, 56, 0.9);
-     min-height: 1200px;
 
    }
 
@@ -280,7 +279,6 @@ textarea {
 
    #contact {
      background: #ebebeb;
-     min-height: 800px;
      color: #13132f;
 
    }
@@ -467,7 +465,7 @@ textarea {
 
 
 
-  /******* GRID ******/
+  /******* GRID DESKTOP ******/
 
   .full-width {
     width: 100%;
@@ -484,7 +482,7 @@ textarea {
     float: left;
   }
 
-  /***** HEADER ******/
+  /***** HEADER ****** DESKTOP*/
   header {
     background-image: url('http://res.cloudinary.com/morgacoo/image/upload/c_scale,w_2000/v1503508521/camera-large_syduvl.jpg');
     height: auto;
@@ -572,13 +570,14 @@ textarea {
     color: #961d38;
   }
 
-  /*********   ABOUT     ***************/
+  /*********   ABOUT DESKTOP    ***************/
 
   #about {
     border-bottom: 2px solid #996600; /* FIGURE OUT HOW TO FIX HEIGHT OF ELEMENT*/
     width: 90%;
     padding-left: 3%;
     border: 1px solid black;
+    min-height: 600px;
   }
 
   #about .half-width {
@@ -603,12 +602,13 @@ textarea {
   }
 
 
-  /****** WORK ******/
+  /****** WORK DESKTOP******/
 
   #work{
     background: #961d38;
     text-align: center;
     background-color: rgba(150, 29, 56, 0.9);
+    min-height: 600px;
   }
 
   #work .full-width{
@@ -641,7 +641,7 @@ textarea {
   #contact {
     background: #ebebeb;
     border-top: 3px solid #996600;
-
+    min-height: 500px;
   }
 
   #contact .full-width {
