@@ -56,6 +56,9 @@
                     <p>I focus my work on front-end design utilizing HTML, CSS, bootstrap, jQuery, and Javascript to bring clean, functional, and fun products to my clients. From the initial concept stage through site launch, I work with my clients to ensure they receive a final product that suits their needs and reflects their personality. I hope you like it. </p>
                   </div>
                 </div>
+                  <div class="form-element">
+                    <button type ="button" id="hire-me"> Hire Me!</button>
+                  </div>
               </section>
 
   <!--WORK SECTION-->
@@ -126,6 +129,27 @@
           $(document).ready(function() {
             $("#header_logo").fadeIn(4000).css("display", "block");
 
+            $("#about").hover(function() {
+                var hireMe = false;
+                if (hireMe == false) {
+                  $("#hire-me").fadeIn(2000);
+                  hireMe = true;
+                } else {                                /*red color*/
+                  $("#hire-me").css("background-color", "#961d38").fadeIn();
+                  hireMe = false;
+                };
+
+            });
+
+      /*  $("#work").hover(function() { /*light grey color*/
+            /*  var comeOn = true;
+              if (comeOn == true) {
+                $("#hire-me").html("Come on...").css("background-color", "#ebebeb");
+              };  else {
+                $("#hire-me").html("Hire Me!").css("background-color", "#961d38");
+              }
+
+            });*/
           });
 
         </script>

@@ -574,8 +574,7 @@ textarea {
 
   #about {
     border-bottom: 2px solid #996600; /* FIGURE OUT HOW TO FIX HEIGHT OF ELEMENT*/
-    width: 95%;
-    border: 1px solid black;
+    width: 86%;
     min-height: 600px;
   }
 
@@ -600,6 +599,19 @@ textarea {
     color:#7f7f7f;
     line-height: 2em;
     text-align: justify;
+  }
+
+  #hire-me {
+    display: none;
+    position: fixed;
+    top: 600px;
+    left: 86%;
+    border-radius: 5%;
+    background-color: #961d38;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.5em;
+    width: 120px;
+    font-weight: bold;
   }
 
 
