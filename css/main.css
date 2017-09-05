@@ -574,15 +574,18 @@ textarea {
 
   #about {
     border-bottom: 2px solid #996600; /* FIGURE OUT HOW TO FIX HEIGHT OF ELEMENT*/
-    width: 90%;
-    padding-left: 3%;
+    width: 95%;
     border: 1px solid black;
     min-height: 600px;
   }
 
+  #about .full-width {
+    width: 97%;
+  }
+
+
   #about .half-width {
     width: 47%;
-    margin-left: 2%;
   }
 
   #about h2 {
@@ -590,8 +593,6 @@ textarea {
     font-size: 36px;
     color: #13132f;
     margin-bottom: 0;
-    margin-left: 2
-
   }
 
   #about p {
