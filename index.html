@@ -47,6 +47,9 @@
 
           <main>
               <section id="about">
+                <div class="form-element">
+                  <a href="mailto:morgan@morgancook.org"><button type = "button" id="hire-me"> Hire Me!</button></a>
+                </div>
                 <div class="full-width">
                   <h2>Once upon a time...</h2>
                   <div class="half-width">
@@ -55,10 +58,11 @@
                   <div class="half-width">
                     <p>I focus my work on front-end design utilizing HTML, CSS, bootstrap, jQuery, and Javascript to bring clean, functional, and fun products to my clients. From the initial concept stage through site launch, I work with my clients to ensure they receive a final product that suits their needs and reflects their personality. I hope you like it. </p>
                   </div>
-                </div>
                   <div class="form-element">
-                    <button type ="button" id="hire-me"> Hire Me!</button>
+                    <a href="mailto:morgan@morgancook.org"><button type = "button" id="hire-me-2"> Hire Me!</button></a>
                   </div>
+                </div>
+
               </section>
 
   <!--WORK SECTION-->
@@ -126,31 +130,21 @@
         </script>
 
         <script>
-          $(document).ready(function() {
             $("#header_logo").fadeIn(4000).css("display", "block");
 
-            $("#about").hover(function() {
-                var hireMe = false;
-                if (hireMe == false) {
-                  $("#hire-me").fadeIn(2000);
-                  hireMe = true;
-                } else {                                /*red color*/
-                  $("#hire-me").css("background-color", "#961d38").fadeIn();
-                  hireMe = false;
-                };
+            /*$(".about").hover(function() {
+              var width = $("body").width();
 
-            });
+              if ($(width >= 940) {
 
-      /*  $("#work").hover(function() { /*light grey color*/
-            /*  var comeOn = true;
-              if (comeOn == true) {
-                $("#hire-me").html("Come on...").css("background-color", "#ebebeb");
-              };  else {
-                $("#hire-me").html("Hire Me!").css("background-color", "#961d38");
-              }
+                $("#hire-me-2").fadeIn(2000);
+            } else {
+              $(".about").hover(function() {
+                $("#hire-me").fadeIn(2000);
+              });
+            } };*/
 
-            });*/
-          });
+
 
         </script>
 

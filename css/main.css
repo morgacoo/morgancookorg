@@ -365,9 +365,6 @@ textarea {
 
 
 
-
-
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -456,8 +453,22 @@ textarea {
       height: auto;
     }
 
+    #hire-me {
+      float: right;
+      border-radius: 5%;
+      background-color: #996600;
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 1.5em;
+      width: 120px;
+      font-weight: bold;
+      margin-right: 7%;
+    }
 
-
+      .form-element a button {
+        text-decoration: none;
+        font-variant: small-caps;
+        color: black;
+      }
 }
 
 @media screen and (min-width: 940px) {
@@ -603,16 +614,24 @@ textarea {
 
   #hire-me {
     display: none;
-    position: fixed;
-    top: 600px;
-    left: 86%;
     border-radius: 5%;
-    background-color: #961d38;
+    background-color: #996600;
     font-family: 'Rajdhani', sans-serif;
     font-size: 1.5em;
     width: 120px;
     font-weight: bold;
   }
+
+  #hire-me-2 {
+    display: none;
+    border-radius: 5%;
+    background-color: #996600;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.5em;
+    width: 120px;
+    font-weight: bold;
+  }
+
 
 
   /****** WORK DESKTOP******/
